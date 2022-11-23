@@ -1,0 +1,17 @@
+body {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 18px;
+    color: black;
+}
+
+.container {
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.none {
+    display: none !important;
+}

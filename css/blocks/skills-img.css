@@ -1,0 +1,135 @@
+.skills-img {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.photoshop {
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoshop-mobile {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.photoshop-mobile:last-child {
+    margin-top: 100px;
+}
+
+.skills-content {
+    width: 148px;
+}
+
+.skills-name {
+    display: block;
+    text-align: center;
+    width: 70px;
+    margin: 28px 39px 41px 39px;
+}
+
+
+.img-photoshop {
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.img-photoshop-stars {
+    display: flex;
+    align-items: center;
+}
+
+.star-one {
+    margin-right: 9px;
+}
+
+.star-two {
+    margin-right: 9px;
+}
+
+.star-three {
+    margin-right: 9px;
+}
+
+.star-four {
+    margin-right: 9px;
+}
+
+.star-five {
+    margin-right: 0;
+}
+
+.skills-name-effects {
+    display: flex;
+    text-align: center;
+    width: 79px;
+    margin: 28px 39px 41px 39px;
+}
+
+.skills-name-figma {
+    display: flex;
+    text-align: center;
+    width: 41px;
+    margin: 29px 53.5px 57px 53.5px;
+}
+
+.img-illustrator {
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.img-effects {
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.img-figma {
+    margin-right: 44px;
+    margin-left: 44px;
+}
+
+.star-four-illustrator {
+    margin-right: 9px;
+}
+
+@media (min-width: 992px) {
+    .photoshop-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .photoshop {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .photoshop {
+        max-width: 100%;
+        display: block;
+    }
+
+    .photoshop-mobile {
+        display: none;
+    }
+
+    .skills-content {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 82px;
+    }
+
+    .skills-content:last-child {
+        margin-bottom: 0;
+    }
+}
+

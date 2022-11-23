@@ -1,0 +1,25 @@
+.Portfolio {
+    text-align: center;
+    background-color: #F6F6F6;
+    padding-top: 112px;
+    padding-bottom: 97px;
+    color: #070707;
+}
+
+.title {
+    margin-bottom: 47px;
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.subtitle {
+    margin-top: 45px;
+    margin-bottom: 99px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
